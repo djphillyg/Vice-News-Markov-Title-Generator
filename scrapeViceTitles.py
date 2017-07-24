@@ -76,4 +76,6 @@ def generate_markov():
 
     for i in range(10):
         print(text_model.make_short_sentence(140))
-tryMarkov()
+
+scrapeWayBack()
+generate_markov()
